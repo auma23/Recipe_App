@@ -1,22 +1,12 @@
-import logo from './logo.svg';
+import RecipeFinder from './Components/RecipeFinder';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header className="bg-green-300">
+      <h1 className='mb-4 text-4xl ml-5 font-extrabold leading-none tracking-tight text-purple-500 md:text-5xl lg:text-6xl dark:text-white'>Recipe Finder App</h1> <br></br>
+      <RecipeFinder />
       </header>
     </div>
   );
